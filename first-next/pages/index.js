@@ -12,7 +12,7 @@ class Index extends Component {
   static async getInitialProps() {
     console.log("Fetching your data in getInitialProps");
   }
-  
+
   render() {
     return (
       <div>
@@ -29,5 +29,8 @@ class Index extends Component {
 //     </div>
 //   )
 // };
+// Index.getInitialProps = async () => {
+//   console.log("Fetching your data in getInitialProps");
+// }
 
 export default Index;
